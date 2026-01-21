@@ -1,0 +1,9 @@
+number= int(input("enter the 4 digits: "))
+digit1= int(number%10)
+digit2= int(number/10)
+digit3= int(digit2%10)
+digit4= int(digit2/10)
+digit5= int(digit4%10)
+digit6= int(digit4/10)
+reverse= digit1*1000+ digit3*100+ digit5*10 + digit6
+print ("the reverse of the entered 4 digits is = " , reverse)
